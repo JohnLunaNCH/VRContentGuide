@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a43518916a3004b8d60b9a2cd42ae5, type: 3}
+  m_Name: Readme - VR Guide
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 93a9b1d447ecedb46b1418f3da07e4e4, type: 3}
+  title: VR Content Guide
+  sections:
+  - heading: What is this?
+    text: This is a visualization of content guidelines created by Mike Alger, Senior
+      Interaction Designer at Google.
+    linkText: Mike Alger's blog on Content Zone for VR
+    url: https://mikealgermovingimage.tumblr.com/post/117609953666/content-zones-for-vr
+  - heading: How do I use it?
+    text: Add the ComfortCameraGizmo script to your main camera. The red frustum
+      represents the maximum boundaries and the blue frustum shows the comfortable
+      boundaries. The small red square represents the smallest readable font size
+      and the blue square represents the more comfortable readable font size.
+    linkText: 
+    url: 
+  - heading: Unit Measurements
+    text: Most measurements are in meters. The units for the frustum angles are wonky
+      and need to be updated for readability.
+    linkText: 
+    url: 
+  loadedLayout: 1

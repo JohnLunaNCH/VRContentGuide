@@ -1,0 +1,7 @@
+{
+	"name":"org.nchri.VRContentGuide",
+	"displayName": "VR Content Guide",
+	"version": "1.0.0",
+	"unity": "2019",
+	"description": "Editor scripts to show comfortable and maximum range of human head movement for VR content"
+}
